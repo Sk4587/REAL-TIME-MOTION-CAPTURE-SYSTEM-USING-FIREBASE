@@ -94,7 +94,7 @@ white.
 
 ## Using the Code:
 * Make sure the following python is installed in both the systems. [link to python installation](https://www.python.org/downloads/).
-*Install the necessary packages using the below commands.
+* Install the necessary packages using the below commands.
 ```sh
 pip install imutils
 pip install opencv-python
