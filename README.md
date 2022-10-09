@@ -50,120 +50,14 @@ from camera are continuous. Initially a particular time interval is
 defined for generating frames called as frame interval.
 
 ## TOOLS USED:
-### PYTHON:
+* PYTHON
+* OPEN CV
+* FIREBASE
+* BASE64
 
- Python is an interpreted, high-level and general purpose
-programming language. Python's design philosophy emphasizes code
-readability with its notable use of significant whitespace. Its language
-constructs and object-oriented approach aim to help programmers
-write clear, logical code for small and large-scale projects. Python is
-dynamically typed and garbage-collected. It supports multiple
-programming paradigms, including structured, object-oriented, and
-functional programming. For Internet-facing applications, many
-standard formats and protocols such as MIME and HTTP are
-supported. It includes modules for creating graphical user interfaces,
-connecting to relational databases, generating pseudorandom numbers,
-arithmetic with arbitrary-precision decimals, manipulating regular
-expressions, and unit testing. It contains over 200,000 packages with a
-wide range of functionality, including:
-• Automation
-• Data analytics, Databases and Documentation
-• Graphical user interfaces
-• Image processing and Machine learning
-• Mobile App, Multimedia and Networking
-• Scientific computing and System administration
-• Test frameworks and Text processing
-• Web frameworks and Web scraping
-7
-### OPEN CV:
-
-OpenCV (Open Source Computer Vision Library) is a library of
-programming functions mainly aimed at real-time computer vision.
-Originally developed by Intel, it was later supported by Willow
-Garage then Itseez (which was later acquired by Intel). The library is
-cross-platform and free for use under the open-source BSD license.
-OpenCV is written in C++ and its primary interface is in C++, but it
-still retains a less comprehensive though extensive older C interface.
-All of the new developments and algorithms appear in the C++
-interface. There are bindings in Python, Java and
-MATLAB/OCTAVE. OpenCV runs on the following desktop
-operating systems: Windows, Linux, macOS, FreeBSD, NetBSD, and
-OpenBSD. OpenCV runs on the following mobile operating systems:
-Android, iOS, Maemo, BlackBerry 10. OpenCV uses CMake.
- OpenCV's application areas include:
-•2D and 3D feature toolkits and Ego motion estimation
-•Facial recognition system, Gesture recognition and Human–
-computer interaction (HCI)
-•Mobile robotics and Motion understanding and Object detection
-•Segmentation and recognition, Structure from motion (SFM)
-•Motion tracking and Augmented reality
-To support some of the above areas, OpenCV includes a statistical
-machine learning library that contains:
-•Boosting, Decision tree learning, Gradient boosting trees
-•Expectation-maximization algorithm, k-nearest neighbour algorithm,
-Naive Bayes classifier and Random forest
-•Artificial neural networks, Support vector machine (SVM) and Deep
-neural networks (DNN)
 
 ![image](https://user-images.githubusercontent.com/46374770/194746863-6a5cb958-4d6f-4cac-a7c7-ac525a7ba746.png) ![image](https://user-images.githubusercontent.com/46374770/194746942-6f77314c-9956-4afd-b02b-5d314a21068f.png)
 
-### FIREBASE:
-
- Firebase is a mobile and web app development platform that
-provides developers with a plethora of tools and services to help them
-develop high-quality apps, grow their user base.
-8
-The Firebase Realtime Database is a cloudhosted NoSQL database that lets you store and
-sync between your users in realtime. The
-Realtime Database is really just one big JSON
-object that the developers can manage in
-realtime. With just a single API, the Firebase
-database provides your app with both the
-current value of the data and any updates to that data. When your users
-go offline, the Realtime Database SDKs use local cache on the device
-to serve and store changes. When the device comes online, the local
-data is automatically synchronized. The Realtime Database can also
-integrate with Firebase Authentication to provide a simple and intuitive
-authentication process. Using Firebase Authentication makes building
-secure authentication systems easier, while also improving the sign-in
-and on boarding experience for end users. Firebase Cloud Messaging
-(FCM) provides a reliable and battery-efficient connection between
-your server and devices that allows you to deliver and receive messages
-and notifications on iOS, Android, and the web at no cost.You can send
-notification messages (2KB limit) and data messages (4KB limit).
-Firebase Test Labs provides a large number of mobile test devices to
-help you test your apps. In Firestore, your data is automatically copied
-to various regions. So if one data center goes offline due to some
-unforeseen reason, you can be sure that your app’s data is still safe
-somewhere else. Firestore’s multi-region database also provides strong
-consistency. Any changes to your data will be mirrored across every
-copy of your database. Firebase now comes with machine learning,
-with it uses to analyse your app’s data and create dynamic user groups
-based on the user’s predicted behavior. Firebase Predictions can work
-with Remote Config to increase conversions by providing a customized
-experience based on each of your user’s behavior.
-
-### BASE64:
- Base64 is a group of binary-to-text encoding schemes that
-represent binary data (more specifically a sequence of 8-bit bytes) in
-an ASCII string format by translating it into a radix-64 representation.
-Three 8-bit bytes (i.e., a total of 24 bits) can therefore be represented by
-9
-four 6-bit Base64 digits. Base64 is designed to carry data stored in
-binary formats across channels that only reliably support text content.
-Base64 is particularly prevalent on the World Wide Web where its uses
-include the ability to embed image files or other binary assets inside
-textual assets such as HTML and CSS files. Base64 is also widely used
-for sending e-mail attachments.
-Base64 can be used in a variety of contexts:
-• Base64 can be used to transmit and store text that might otherwise
-cause delimiter collision
-• Spammers use Base64 to evade basic anti-spamming tools, which
-often do not decode Base64 and therefore cannot detect keywords in
-encoded messages.
-• Base64 is used to encode character strings in LDIF files
-• Base64 is used to encode binary files such as images within scripts,
-to avoid depending on external files.
 
 ## APPROACH:
 When the program starts, we will capture a picture
@@ -197,3 +91,33 @@ white.
 ## FLOWCHART:
 ![image](https://user-images.githubusercontent.com/46374770/194747122-e9710e06-0740-4572-b7ed-93e4cb2bdefb.png)
 ![image](https://user-images.githubusercontent.com/46374770/194747153-d6ae3388-08f6-46d7-a559-2ea55914a979.png)
+
+## OUTPUT:
+I)<br />
+![image](https://user-images.githubusercontent.com/46374770/194748517-e26a0c75-84f2-4d90-8387-8c7f33d7b0c1.png)<br />
+II)<br />
+![image](https://user-images.githubusercontent.com/46374770/194748566-c9ba3a1d-6ddf-4d47-9fad-f3af2879dd12.png)<br />
+III)<br />
+![image](https://user-images.githubusercontent.com/46374770/194748611-36b6e18c-c865-458f-95e6-d1d4eeb69fc1.png)<br />
+IV) <br />
+![image](https://user-images.githubusercontent.com/46374770/194748631-1a9e49d6-dcd6-48ab-b68e-eb1674b655e0.png)<br />
+V)<br />
+![image](https://user-images.githubusercontent.com/46374770/194748676-fa426c06-d7b2-424c-a9de-cc141a377d6a.png)<br />
+
+## REFERENCE:
+• https://www.pyimagesearch.com/2015/05/25/basic-motiondetection-and-tracking-with-python-and-opencv <br />
+• https://jdhao.github.io/2020/03/17/base64_opencv_pil_image_conversion/ <br />
+• https://firebase.google.com/docs/admin/setup <br />
+
+## CONCLUSION:
+A variety of motion detection algorithms for video surveillance
+systems are developed. But most of the systems do not absolutely detect
+the moving object because it causes some darkness and it requires large
+memory to store the video. We are developing real time motion
+detection system that will be helpful for detecting the moving object.
+By using Human Motion Detection system, banks safe and high
+security areas like museum and crime investigated prohibited area will
+be more secured. Moreover it will save memory and memory wastage
+would be avoided unlike in CCTV.
+
+
