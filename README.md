@@ -93,13 +93,24 @@ white.
 ![image](https://user-images.githubusercontent.com/46374770/194747153-d6ae3388-08f6-46d7-a559-2ea55914a979.png)
 
 ## Using the Code:
-* Make sure the following packages are installed. Else install it using the following commands.
-sh'''
+* Make sure the following python is installed in both the systems. [link to python installation](https://www.python.org/downloads/).
+*Install the necessary packages using the below commands.
+```sh
 pip install imutils
 pip install opencv-python
 pip install numpy
 pip install firebase-admin
-'''
+```
+* Follow the steps given in this [link](https://firebase.google.com/docs/admin/setup#windows) to create firebase credentials and authentication
+* Replace the path to certificate.json and url correspondingly in the given two python files
+* In the Motion Detection system, run the code as 
+```sh
+python MotionDetectorAndPublisher.py
+```
+* In the remote monitoring system, run the code as
+```sh
+python RemoteSubscriber.py
+```
 
 
 ## OUTPUT:
