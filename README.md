@@ -92,6 +92,16 @@ white.
 ![image](https://user-images.githubusercontent.com/46374770/194747122-e9710e06-0740-4572-b7ed-93e4cb2bdefb.png)
 ![image](https://user-images.githubusercontent.com/46374770/194747153-d6ae3388-08f6-46d7-a559-2ea55914a979.png)
 
+## Using the Code:
+* Make sure the following packages are installed. Else install it using the following commands.
+sh'''
+pip install imutils
+pip install opencv-python
+pip install numpy
+pip install firebase-admin
+'''
+
+
 ## OUTPUT:
 I)<br />
 ![image](https://user-images.githubusercontent.com/46374770/194748517-e26a0c75-84f2-4d90-8387-8c7f33d7b0c1.png)<br />
