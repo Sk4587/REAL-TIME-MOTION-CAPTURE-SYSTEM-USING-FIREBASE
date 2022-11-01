@@ -13,6 +13,10 @@ included the observation from a distance by recording the captured
 content by means of electronic equipment, such as closed-circuit
 television (CCTV)
 
+## PROJECT DEMO
+[![image](https://user-images.githubusercontent.com/46374770/199302523-ca8a8446-eaa0-4d20-8c64-0c4ebce3ed63.png)](https://youtu.be/zWaPGsf4tB4)
+
+
 ## INTRODUCTION:
 ### NEED:
  Motion detection is the detection of the change in the position of
